@@ -1,4 +1,4 @@
-##🏢 1. Project Overview & Business Scenario
+🏢 1. Project Overview & Business Scenario
 
 An enterprise organization requires a comprehensive diagnostic audit of its Human Resource Management System (HRMS) database. Over time, legacy data migrations, system upgrades, and manual entry overrides have introduced data anomalies, broken structural hierarchies, and potential compliance variances.
 As the Data Analyst, this report documents a series of proactive, defensive data validation scripts designed to audit payroll compliance, uncover structural relational gaps ("ghost" or "orphan" entities), map talent mobility, and engineer reusable validation layers for HR operations.
