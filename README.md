@@ -7,7 +7,7 @@ As the Data Analyst, this report documents a series of proactive, defensive data
 
 #🛠️ Module 1: Payroll Compliance & Budgetary Controls
 
-##A. The Multi-Metric Departmental Variance Report
+## A. The Multi-Metric Departmental Variance Report
 * **The Business Problem:** HR executives need an objective financial health check to isolate departments running heavy financial operations. Simple averages mask real payroll stratification. Management requires a single report showing headcount density, total structural payroll drag, and the operational "Pay Spread" (the range variance between the lowest and highest earner) to pinpoint unequal distribution.
 * **The Technical Solution:**
 * **HR Data Insight:** This filters out tiny outlier teams and dynamically categorizes major operating segments. The Salary_Gap surfaces structural disparities, while the High_Earner_Count measures heavy top-tier compensation density against the total department budget status.
