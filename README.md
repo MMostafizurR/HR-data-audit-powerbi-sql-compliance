@@ -5,7 +5,7 @@ As the Data Analyst, this report documents a series of proactive, defensive data
 ---
 ## 🔍 2. Curated Audit Modules & Documentation
 
-# 🛠️ Module 1: Payroll Compliance & Budgetary Controls
+## 🛠️ Module 1: Payroll Compliance & Budgetary Controls
 
 ## A. The Multi-Metric Departmental Variance Report
 * **The Business Problem:** HR executives need an objective financial health check to isolate departments running heavy financial operations. Simple averages mask real payroll stratification. Management requires a single report showing headcount density, total structural payroll drag, and the operational "Pay Spread" (the range variance between the lowest and highest earner) to pinpoint unequal distribution.
