@@ -22,6 +22,7 @@ As the Data Analyst, this report documents a series of proactive, defensive data
 * **The Technical Solution:**
 * **HR Data Insight:** This query processes a derived table summary first, then joins back to individual entries. It actively flags structural financial risk—such as a single employee consuming an asymmetric share (e.g., >30%) of a department's entire monthly compensation pool.
 
+
 ##🔄 Module 2: Relational Integrity & Talent Mobility
 
 ##A. The Global Cross-Schema 7-Table Join
@@ -33,6 +34,7 @@ As the Data Analyst, this report documents a series of proactive, defensive data
 * **The Business Problem:** When auditing retention or talent rotation pathways, HR needs to pinpoint internal career shifts. Specifically, we want to isolate and contrast personnel who have actively changed units where their current department explicitly differs from their prior documented assignment.
 * **The Technical Solution:**
 * **HR Data Insight:** This requires aliasing the departments lookup table twice (d_curr and d_prev). It ignores static histories and isolates lateral transfers, providing clear documentation on inter-departmental mobility trends.
+
 
 ##🛡️ Module 3: Data Cleansing, Governance & Core Automation
 
@@ -50,6 +52,7 @@ As the Data Analyst, this report documents a series of proactive, defensive data
 * **The Business Problem:** Non-technical HR managers frequently request targeted employee diagnostics. Allowing raw database scripting risks injections or syntax crashes. Operations requires a simple parameter interface protected by robust back-end conditional error handling.
 * **The Technical Solution:**
 * **HR Data Insight:** This wraps structural database queries inside a secured boundary. By integrating proactive conditional verification (IF NOT EXISTS), it overrides generic, cryptic database engine messages with high-clarity business warnings when a bad parameter is injected.
+
 
 ##🗄️ Module 4: Metadata & Architecture Auditing
 
